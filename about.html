@@ -1,8 +1,8 @@
 <head>
 <meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='/favicon.png?v=3' rel='shortcut icon'>
 <title>
-
 Dealin
 </title>
 <script>
@@ -16,6 +16,10 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 <!-- ![endif] -->
 <link rel="stylesheet" media="screen" href="css/style.css">
 <link rel="stylesheet" media="screen" href="css/dashboard.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
   (function() {
     window.path_to_image_url = "";
@@ -31,36 +35,92 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 <meta content='no-cache' name='turbolinks-cache-control'>
 
 </head>
-<body class='about-tab dashboard-v2'>
+<style>
+     .nav, navbar navbar-default{
+      top: 0;
+      width: 85%;
+      align-content: right;
+      margin: 0;
+      padding: 0;
+      color: rgb(0, 0, 0);
+      background-color: #F9F9F9;
+      width:50%;
+      position: center;
+      padding-left: 0;
+      margin-left: 0px;
+      margin-top: 0px;
+}
+    .form-control{
+      position :right;
+      top: 0;
+      width: 30%;
+      align-content: center;
+      margin: 0;
+      margin-top: 5px;
+      padding: 10px;
+      color: rgb(12, 11, 11);
+      background-color: #F9F9F9;
+    }
+   
+</style>    
+<center>
+
+  <!-- Beginning of Nav bar Code -->
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+       </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+      <input type="text" class="form-control" placeholder="Search">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href=""><span class=""></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Andy Essiet</a></li>
+         </ul>
+      </div>
+    </div>
+  </nav></center>
+
+
+  <!-- End of Nav bar Code -->
+
+<!-- Beginning of Side bar {Left} Code -->
+
+
+<body class='about-tab dashboard-v2'>         
 <script>
 //<![CDATA[
 window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_#[IMAGE_ID].svg";gon.generic_cover_photos_path="///d2k19sm9gbyjni.cloudfront.net/generic_cover_photos/cover_#[MASTER_ID]_#[VERSION].jpg";gon.lb_env="production";gon.facebook_api_version="2.6";gon.block_3th_party=false;gon.buy_now_locked=true;gon.login_session="free";gon.dashboard_version="normal";gon.business_status_id=10;gon.address_present=false;gon.show_quicklaunch=false;gon.provider=null;gon.is_multi_business=false;gon.experiments_user={"package-picker-v2":"old","data-collection-v2":"old"};gon.display_salescall_banner=true;gon.first_time_in_dashboard_after_upgrade=false;gon.schedule_call_date=null;gon.timezone_offset=-1;gon.call_scheduled=false;gon.is_any_call_scheduled=null;gon.timezone="Africa/Lagos";gon.is_live=false;gon.is_user_opened_subscriber=null;gon.oauth_token="0gQDCQOuv5E63VmNlVUkTa5ObGdR0cEj1JbfzuOH";gon.node_server="https://ws.flok.com:443";gon.is_limited_plan=true;gon.was_limited_plan=null;gon.fb_app_id="288273431189490";gon.full_members_path="https://www.flok.com/members";gon.working_hours={"working_hours":[],"about_text":null};gon.current_business_id=474356;
 //]]>
 </script>
-
 <!-- / This partial's purpose is to be used as a layout for LB chat. -->
-<!-- <div data-turbolinks-permanent='true' id='chat-container'>
+<div data-turbolinks-permanent='true' id='chat-container'>
 <div class='chat-inner-wrapper'>
-<style>
-  /* line 6, (__TEMPLATE__) */
-  .chat-instance .message-row.user .user-image {
-    background: url(/assets/dashboard-v2/status-cards/no-image-user.png);
-    background-size: cover;
-    border: 1px solid white; }
-  /* line 14, (__TEMPLATE__) */
-  .chat-instance .message-row.merchant .user-image {
-    background: url("https://s3.amazonaws.com/loyalblocks_business_logos/f0a3b30b-e2fd-4dd2-8176-436ae07c6fa6/thumb/open_uri20171129_32674_1bgcj6c?1511954208") 0 center no-repeat;
-    background-size: cover;
-    border: 1px solid white; }
-</style>
-<div class='chat-instance prototype' data-merchant-id='474356'>
+<div class='chat-instance prototype' data-merchant-id=''>
 </div>
 </div>
-</div> -->
-<!-- </div>
 </div>
 </div>
-</div> -->
+</div>
+</div>
+</div>
 <div class="show_feed_icons" id="floating-notifications-container"></div>
 <div class="" id="wrapper">
 <div class="w1">
@@ -81,13 +141,15 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </a>
 <span class="sidebar-img sidebar-img-arrow_prof"></span>
 </div>
+
 </header>
 <aside id="sidebar" class="sub_open">
+  
 <ul id="nav">
 <li class="active side_li">
 <a class="home trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Home_Click" href="#">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/home.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/home.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>HOME</span>
@@ -96,7 +158,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub js-design-app-nav-entry trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Your_App_Click" data-navsec="your_app">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourapp.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourapp.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>YOUR APP</span>
@@ -105,7 +167,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub js-design-app-nav-entry trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Your_Club_Click" data-navsec="your_club">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourclub.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourclub.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>YOUR CLUB</span>
@@ -114,7 +176,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub rewards-nav-entry trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Rewards_Click" data-navsec="rewards">
 <div class="side-icon">
-    <div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourrewards.png" alt="" width="100%" height="100%"></div>
+    <div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/yourrewards.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>REWARDS</span>
@@ -123,7 +185,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Conversation_Manager_Click" data-navsec="conversation">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/cm.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/cm.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder smaller-nav">
 <span>CONVERSATION MANAGER</span>
@@ -133,7 +195,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Emails_Click" data-navsec="emails">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/email.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/email.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>EMAILS</span>
@@ -143,7 +205,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 </li>
 <li class="side_li has-sub trackingActionsBinded" data-lbtrack="Navigation_Interaction" data-lbtrackaction="Growth_Click" data-navsec="growth">
 <div class="side-icon">
-<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/growth.png" alt="" width="100%" height="100%"></div>
+<div class="sidebar-img sidebar-img-home_w>"><img class="" src="img/growth.png" alt="" width="35" height="35"></div>
 </div>
 <div class="text-holder">
 <span>GROWTH</span>
@@ -297,50 +359,7 @@ window.gon={};gon.generic_business_logo_path="/assets/generic_business_logos/bl_
 <li class="banner_li">
 <a class="app-not-live-link trackingActionsBinded" data-lbtrack="Profile_Interaction" data-lbtrackaction="Launch_App_Click" data-turbolinks="false" href="#">
 <div class="sidebar-img sidebar-img-exclimation icon"></div>
-LAUNCH YOUR APP
-</a>
-</li>
-<li class="edit-profile">
-<a data-lbtrack="Profile_Interaction" data-lbtrackaction="Settings_Click" data-turbolinks="false" href="#" class="trackingActionsBinded">
-<div class="sidebar-img sidebar-img-settings icon"></div>
-SETTINGS
-</a>
-</li>
-<li class="logout">
-<a data-lbtrack="Profile_Interaction" data-lbtrackaction="Log_Out" data-turbolinks="false" rel="nofollow" data-method="delete" href="https://www.flok.com/business_logins/sign_out" class="trackingActionsBinded"><div class="sidebar-img sidebar-img-logout icon"></div>
-LOGOUT
-</a></li>
-</ul>
-</div>
-</aside>
-</div>
-<div class='header-notifications' id='dragg_header_elem'>
-<div class='notifications-count-wrapper' style='display: none;'>
-<div class='notifications-count'>
-0
-</div>
-</div>
-<a class='more-btn' data-lbtrack='User_Notifications' data-lbtrackaction='click' href='javascript:;'>
-<div class='layout-img layout-img-more'></div>
-</a>
-</div>
-<div id='profile_popup_wrap'>
-<ul>
-<li class='banner_li'>
-<a class='app-not-live-link' data-lbtrack='Profile_Interaction' data-lbtrackaction='Launch_App_Click' data-turbolinks='false' href='/dashboard/pricing-plan-v54/loyalty?lbgetenc=SWJJNmFFMktMYkhBTjNBbEtEbmlVV3dXODhlblpscUluYnpxMEdua0g1d3FJTGRhWjNwb1RpQk1SWThRZ3ladHpOa0VvMjVzenlFdFh6QzF0UGxMdGh6V2JPY3U2Ti9LdFhkK2MvVC9ILzA9LS15WExjV0d2VG8xdjMxMkkyM0hYck93PT0%3D--62d3e7949abcb67d3906b60309303df2dadc6d11'>
-<div class='sidebar-img sidebar-img-exclimation icon'></div>
-LAUNCH YOUR APP
-</a>
-</li>
-<li class='edit-profile'>
-<a data-lbtrack='Profile_Interaction' data-lbtrackaction='Settings_Click' data-turbolinks='false' href='/dashboard/settings'>
-<div class='sidebar-img sidebar-img-settings icon'></div>
-SETTINGS
-</a>
-</li>
-<li class='logout'>
-<a data-lbtrack="Profile_Interaction" data-lbtrackaction="Log_Out" data-turbolinks="false" rel="nofollow" data-method="delete" href="/business_logins/sign_out"><div class='sidebar-img sidebar-img-logout icon'></div>
-LOGOUT
+
 </a></li>
 </ul>
 </div>
@@ -358,11 +377,14 @@ LOGOUT
   }
 </style>
 
+
+<!-- Beginning of Body Code -->
+
 <div class='main-holder-2'>
 <div class='upper-upgrade-banner-wrap'>
-<a data-lbtrack='Dashboard_Interaction' data-lbtrackaction='Upgrade_Dollars_Special_Offer_Click' id='marketing_banner_1' onclick='window.showUpgradeLightbox(true);'>
+  <a data-lbtrack='Dashboard_Interaction' data-lbtrackaction='Upgrade_Dollars_Special_Offer_Click' id='marketing_banner_1' onclick='window.showUpgradeLightbox(true);'>
 <div class='center-wrap'>
-
+ 
 </div>
 </a>
 </div>
@@ -546,7 +568,6 @@ TO
 
 <br>
 
-
 </div>
 </div>
 <div class='bottom-area'>
@@ -611,12 +632,16 @@ WORKING HOURS
     });
   });
 </script>
+<!-- End of Body Code -->
+
+
+<!-- Beginning of Side bar {Right} Code -->
 
 </div>
 </div>
 <div class='lightbox-overlay'></div>
 </div>
-<div id="overlay-cover-layout"></div>
+<div id="overlay-cover-layout"></div><br><br><br><br>
 <div class="interaction-holder pushDownBanner mCustomScrollbar _mCS_2" data-page="1" id="fl_notif_wrap"><div id="mCSB_2" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 330px;" tabindex="0"><div id="mCSB_2_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
 <div class="notif_wrap_title">Your Feed</div>
 <ul class="feed-list-ul show_feed_icons">
@@ -652,7 +677,7 @@ Your  rewards &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campaign is life
 </div>
 </li>
 <div class="loading-section">
-<svg class="loading-ajax-spinner" height="65px" viewBox="0 0 66 66" width="65px" xmlns="http://www.w3.org/2000/svg">
+<svg class="loading-ajax-spinner" height="65px" viewBox="0 0 66 66" width="65px" align="left" xmlns="http://www.w3.org/2000/svg">
 <circle class="path" cx="33" cy="33" fill="none" r="30" stroke-linecap="round" stroke-width="6"></circle>
 </svg>
 </div>
@@ -681,6 +706,7 @@ Your  rewards &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; campaign is life
 </div>
 </div>
 
+<!-- Beginning of Side bar {Right} Code -->
 
 <!-- End of Woopra Code -->
 <script src="js/sidebar.js"></script>
