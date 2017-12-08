@@ -47,3 +47,27 @@ body{
 	    background-color:#ececec !important;
 	    overflow-y: scroll;
 }
+.wrapper-left{
+	    height: 400px;
+	    width: 224px;
+
+}
+.wrapper-right{
+	    height: 190px;
+
+}
+.wrapper{
+	    height: 192px;
+    margin-top: 12px;
+    margin: 14px -11px -14px;
+}
+
+ 
+.whitbck{
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wide-space{
+	margin-top: 30px;
+}
